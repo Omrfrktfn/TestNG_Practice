@@ -36,6 +36,33 @@ public class BlueRentalPage {
     @FindBy(xpath ="//*[@class='mb-3 form-select form-select-lg']")
     public WebElement ddm;
 
+    @FindBy(xpath = "//*[@name='car']")
+    public WebElement select;
+
+    @FindBy(xpath = "//*[@name= 'pickUpLocation']")
+    public WebElement pkLocation;
+
+    @FindBy(xpath = "//*[@name= 'dropOfLocation']")
+    public WebElement drLocation;
+
+    @FindBy(xpath = "//*[@name= 'pickUpDate']")
+    public WebElement pkDate;
+
+    @FindBy(xpath = "//*[@name= 'pickUpTime']")
+    public WebElement pkTime;
+
+    @FindBy(xpath = "//*[@name='dropOffDate']")
+    public WebElement drDate;
+
+    @FindBy(xpath = "//*[@name='dropOffTime']")
+    public WebElement drTime;
+
+    @FindBy(xpath = "//*[@type='submit']")
+    public WebElement continueReserv;
+
+    @FindBy(xpath = "//*[@role='alert']")
+    public WebElement verifyson;
+
 
 
 
